@@ -8,9 +8,9 @@ const ReactMiniElement = function(type, props) {
   return element;
 };
 
-module.exports = function createElement(type, config, ...children) {
+export function createElement(type, config, ...children) {
   const props = {};
-  for (prop in config) {
+  for (const prop in config) {
     if (hasOwnProperty.call(config, prop)) {
       props[prop] = config[prop];
     }
