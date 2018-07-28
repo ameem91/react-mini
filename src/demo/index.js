@@ -1,5 +1,4 @@
-import { createElement } from "../react-mini/ReactMiniElement";
+import ReactMini from "../react-mini/ReactMini";
 
-const element = createElement("h1",{className:"myHeader", customProps: "hi"}, "Some text");
+const element = ReactMini.createElement("h1",{className:"myHeader", customProps: "hi"}, "Some text");
 console.log(element);
-console.log(typeof element);

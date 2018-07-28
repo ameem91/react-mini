@@ -8,5 +8,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: "react-mini demo"
         })
-    ]
+    ],
+    devServer: {
+        open: true
+    }
 }
