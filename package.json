@@ -1,0 +1,19 @@
+{
+  "name": "react-mini",
+  "version": "1.0.0",
+  "description": "Bare-bones implementation of React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameem91/react-mini.git"
+  },
+  "author": "Ameem Shaik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ameem91/react-mini/issues"
+  },
+  "homepage": "https://github.com/ameem91/react-mini#readme"
+}
