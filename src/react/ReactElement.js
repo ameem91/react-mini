@@ -1,6 +1,6 @@
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 
-const ReactMiniElement = function(type, props) {
+const ReactElement = function(type, props) {
   const element = {
     type,
     props
@@ -18,5 +18,5 @@ export function createElement(type, config, ...children) {
   const childrenLength = children.length;
   props.children = children.length === 1 ? children[0] : children;
 
-  return ReactMiniElement(type, props);
+  return ReactElement(type, props);
 }
